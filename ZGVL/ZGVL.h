@@ -15,7 +15,7 @@
 #import "ZGVLNotificationConst.h"
 @interface ZGVL : NSObject
 /**
- *  启动自动获取消息模块,不手动启动的话无法获得新的chatMessage数据
+ *  启动自动获取消息模块,不手动启动的话无法获得新的chatMessage数据,, 收到新消息时会发送"ZGVLReceivedNewChatMessageNotification"通知
  */
 + (void)start;
 
