@@ -5,6 +5,8 @@
 
 AFNetworking
 
+FMDB
+
 Qiniu(七牛云储存)
 
 使用方法:
